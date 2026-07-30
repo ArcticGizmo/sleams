@@ -6,6 +6,15 @@ All notable changes to Otter are recorded here. Otter follows [semantic versioni
 
 ---
 
+## [v0.3.1] - 2026-07-30
+
+- **Install with one command** — a single PowerShell command installs Otter, instead of downloading and running an installer by hand. It also skips the "Windows protected your PC" warning a browser download runs into.
+- **Verified downloads** — every release publishes a checksum manifest, and the installer checks the download against it and refuses to install on a mismatch.
+- Pin a specific version at install time instead of taking the latest.
+- Otter is MIT licensed.
+
+---
+
 ## [v0.3.0] - 2026-06-27
 
 - **Detect any app** — Teams, Zoom, and Discord out of the box, plus your own, on a new Detection page.
